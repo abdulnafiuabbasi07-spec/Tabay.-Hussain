@@ -1,0 +1,105 @@
+*{
+    margin:0 ;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height:70px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #111;
+}
+
+.logo{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+}
+
+nav a:hover{
+    color: #aaa;
+}
+
+.signin{
+    margin-left: auto;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.hero{
+    height: 550px;
+    display: flex;
+    align-items: center;
+
+    background: linear-gradient(
+        to right,
+        #111.
+        transparent
+    );
+}
+
+.content{
+    width: 500px;
+    margin-left: 60px;
+}
+.content h1{
+    font-size: 55px;
+    margin-bottom: 20px; 
+}
+.content p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.play{
+    background-color: white;
+    color: #111;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.movies{
+    padding: 30px 50px;
+}
+
+.movies h2{
+    margin-bottom: 20px;
+}
+.movies-row{
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.movie{
+    min-width: 180px;
+    height: 250px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.movie:hover{
+    transform: scale(1.05);
+}
